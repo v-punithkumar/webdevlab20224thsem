@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function view(){
+        var  Reverse = 0
+        var Number = 1*prompt("Enter a number");
+        while(Number > 0)
+        {    
+        var Reminder = Number%10;    
+        var Reverse = (Reverse *10) + Reminder;    
+        var Number = Number/10;
+        }
+        alert("Reverse of entered number is"+Reverse);    
+    }
+
+
+    </script>
+  </head>
+  <body>
+    <button name="button" onclick="view()">Click me</button>
+
+  </body>
+</html>
