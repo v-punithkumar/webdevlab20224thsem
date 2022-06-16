@@ -1,0 +1,46 @@
+h1{
+    font-family: serif;
+}
+td{
+    width: 150px;
+    height: 300px;
+    border: 6px solid whitesmoke;
+}
+table{
+    border: 6px dotted black;
+}
+#one{
+    background: violet;
+    font-family: serif;
+    text-align: center;
+}
+#two{
+    background: indigo;
+    font-family: serif;
+    text-align: center;
+}
+#three{
+    background: blue;
+    font-family: serif;
+    text-align: center;
+}
+#four{
+    background: green;
+    font-family: serif;
+    text-align: center;
+}
+#five{
+    background: yellow;
+    font-family: serif;
+    text-align: center;
+}
+#six{
+    background: orange;
+    font-family: serif;
+    text-align: center;
+}
+#seven{
+    background: red;
+    font-family: serif;
+    text-align: center;
+}
