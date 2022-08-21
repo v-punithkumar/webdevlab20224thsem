@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function wcount(){
+        var str=document.forms["frm1"].name.value;
+        var lines=str.split('\n').length;
+        var words=str.split(/\s/).length;
+        var chars=str.length-(lines-1);
+        alert("Number of lines:" +lines+"No. of words:"+words+" No. of characters:"+chars);
+
+      }
+
+    </script>
+  </head>
+  <body>
+    <form name="frm1">
+      <textarea name="name" rows="8" cols="80"></textarea>
+      <input type="button" name="inputstring" value="count" onclick="wcount()">
+    </form>
+  </body>
+</html>
