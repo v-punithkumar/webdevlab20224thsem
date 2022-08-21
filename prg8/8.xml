@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="8.xsl"?>
+<!DOCTYPE bookstore SYSTEM "8.dtd">
+<bookstore>
+<book>
+    <title>Web</title>
+    <author>abc</author>
+    <year>2020</year>
+    <price>560</price>
+</book>
+<book>
+    <title>Web</title>
+    <author>abc</author>
+    <year>2020</year>
+    <price>560</price>
+</book>
+<book>
+    <title>Web</title>
+    <author>abc</author>
+    <year>2020</year>
+    <price>560</price>
+</book>
+</bookstore>

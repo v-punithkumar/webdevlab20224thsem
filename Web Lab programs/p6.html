@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="countdown"></p>
+    <script type="text/javascript">
+      var futureDate = new Date("Jul 20, 2023 9:59:59").getTime();
+      var x = setInterval(function(){
+        var now = new Date().getTime();
+        var difference = futureDate - now;
+        var days = Math.floor(difference/(1000*60*60*24));
+        var hours = Math.floor((difference%(1000*60*60*24))/(1000*60*60));
+        var minutes = Math.floor((difference%(1000*60*60))/(1000*60));
+        var seconds = Math.floor((difference%(1000*60))/1000);
+        document.getElementById("countdown").innerHTML = days +"d " + hours + "h " +minutes+ "m "
+        + seconds + "s";
+        if (difference<0){
+          clearInterval(x);
+          document.getElementById("countdown").innerHTML = "Countdown is over";
+        }
+    },1000);
+    </script>
+  </body>
+</html>

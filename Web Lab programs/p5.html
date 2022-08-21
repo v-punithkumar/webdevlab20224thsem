@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function show(elem) {
+        elem.style.display="block";
+      }
+      function hide(elem) {
+        elem.style.display="";
+      }
+    </script>
+    <style media="screen">
+      .tooltip{
+        position: absolute;
+        width:200px;
+        height: 50px;
+        border: 1px solid black;
+        display: none;
+        font-family:calibri;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div onmouseover="show(tp)" onmouseout="hide(tp)">
+      <textarea name="name" rows="8" cols="80"></textarea>
+      <div class="tooltip" id="tp">
+        Help box
+        Description of what needs to be entered here
+      </div>
+    </div>
+  </body>
+</html>

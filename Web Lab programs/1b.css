@@ -1,0 +1,15 @@
+.tab{
+border:.25px solid black;
+margin: auto;
+border-collapse: collapse;
+}
+td{
+height:50px;
+width:50px;
+}
+#black{
+background-color:black;
+}
+#white{
+background-color:white;
+}

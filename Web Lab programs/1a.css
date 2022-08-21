@@ -1,0 +1,51 @@
+h1{
+font-family:'Goudy Bookletter 1911',serif;
+text-align: center;
+} td{
+height:300px;
+width:150px;
+border:6px solid white;
+}
+.tab{
+border:6px dotted black;
+}
+#one{
+background:#9400D3;
+font-family:'Goudy Bookletter 1911',serif;
+text-align: center;
+}
+#two{
+background:#4B0082;
+font-family:'Goudy Bookletter 1911',serif;
+text-align: center;
+}
+#three{
+background:BLUE;
+font-family:'Goudy Bookletter 1911',serif;
+text-align: center;
+}
+#four{
+background:#00FF00;
+font-family:'Goudy Bookletter 1911',serif;
+text-align: center;
+}
+#five{
+background:#FFFF00;
+font-family:'Goudy Bookletter 1911',serif;
+text-align: center;
+}
+#six{
+background:#FF7F00;
+font-family:'Goudy Bookletter 1911',serif;
+text-align: center;
+}
+#seven{
+background:#FF0000;
+font-family:'Goudy Bookletter 1911',serif;
+text-align: center;
+}
+.grad{
+height:100px;
+background-image:linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red);
+text-align:center;margin:auto;color:#fff;font-size:40px;font-weight:"bold"
+}

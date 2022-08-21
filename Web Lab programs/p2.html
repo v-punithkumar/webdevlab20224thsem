@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function capital() {
+        var country = document.forms["Form1"].country.value;
+        var capital = "";
+        if(country=="india"){
+          capital="New Delhi";
+        }
+        document.getElementById("capital").innerHTML=capital;
+      }
+    </script>
+  </head>
+  <body>
+    <form name="Form1">
+      <select name="country" onchange="capital()">
+        <option value="select">Select country</option>
+        <option value="india">India</option>
+        <option value="germany">Germany</option>
+        <option value="australia">Australia</option>
+      </select>
+      <p id="capital">   </p>
+    </form>
+  </body>
+</html>

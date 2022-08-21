@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="p7.css"?>
+<STUDENTDATA>
+  <STUDENT>
+    <USN>USN : 4VV20CS</USN>
+    <NAME>NAME : ABC</NAME>
+    <COLLEGE>COLLEGE : vvce</COLLEGE>
+    <BRANCH>BRANCH :CSE</BRANCH>
+    <YEAR>YEAR : 2022</YEAR>
+    <EMAIL>E-MAIL : abc@gmail.com</EMAIL>
+  </STUDENT>
+  <STUDENT>
+    <USN>USN :4VV20CS</USN>
+    <br></br>
+    <NAME>NAME : pqr</NAME>
+    <COLLEGE>COLLEGE : vvce</COLLEGE>
+    <BRANCH>BRANCH :CSE</BRANCH>
+    <YEAR>YEAR : 2022</YEAR>
+    <EMAIL>E-MAIL : pqr@gmail.com</EMAIL>
+  </STUDENT>
+  <STUDENT>
+    <USN>USN :4VV20CS</USN>
+    <NAME>NAME : xyz</NAME>
+    <COLLEGE>COLLEGE : vvce</COLLEGE>
+    <BRANCH>BRANCH :CSE</BRANCH>
+    <YEAR>YEAR : 2022</YEAR>
+    <EMAIL>E-MAIL :xyz@gmail.com</EMAIL>
+  </STUDENT>
+</STUDENTDATA>
